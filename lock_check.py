@@ -126,7 +126,7 @@ cluster = ''
 username = ''
 password = ''
 
-# check for locks against both no
+# check for locks against both nodes
 n1_locks = lockcheck('cluster-n1', cluster, username, password)
 n2_locks = lockcheck('cluster-n2', cluster, username, password)
 
